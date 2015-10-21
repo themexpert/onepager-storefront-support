@@ -29,8 +29,8 @@ function add_storefront_theme_support(){
 
 function add_onepager_storefront_template(){
 	$pageTemplateManager = new ThemeXpert\WordPress\PageTemplater();
-  $template = locate_template( 'onepager/onepager-storefront.php' ) 
-  	?: __DIR__ . "/templates/onepager-storefront.php";
+        $template = locate_template( 'onepager/onepager-storefront.php' ) 
+  		?: __DIR__ . "/templates/onepager-storefront.php";
 
   $pageTemplateManager->addTemplate( 'OnePager StoreFront', $template );
 }
