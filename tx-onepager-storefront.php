@@ -32,5 +32,5 @@ function add_onepager_storefront_template(){
         $template = locate_template( 'onepager/onepager-storefront.php' ) 
   		?: __DIR__ . "/templates/onepager-storefront.php";
 
-  $pageTemplateManager->addTemplate( 'OnePager StoreFront', $template );
+        $pageTemplateManager->addTemplate( 'OnePager StoreFront', $template );
 }
